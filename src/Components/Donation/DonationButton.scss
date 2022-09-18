@@ -1,0 +1,12 @@
+.donationButton{
+  
+    span {
+        button {
+            font-size: 28px;
+            background-color: var(--is-donation-button-bg);
+            color: var(--is-primary-text-color);
+            border: none;
+            padding: 5px;
+        }
+    }
+}

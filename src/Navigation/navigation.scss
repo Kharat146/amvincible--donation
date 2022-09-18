@@ -1,0 +1,43 @@
+.menuDrawer {
+    width: 100% !important;
+    height: 100%;
+    top: 0px !important;
+    padding: 10px !important;
+  }
+  .ant-modal-wrap .menuDrawer .ant-modal-content {
+    background: none !important;
+    padding: 0px;
+    box-shadow: none;
+  }
+  .ant-menu {
+    border-right: 0px !important;
+    padding: 10px 0px !important;
+    background: none !important;
+  }
+  .ant-modal.menuDrawer .ant-modal-close {
+    display: block !important;
+    color: var(--is-primary-text-color) !important;
+  }
+  .ant-modal-close-x{
+    font-size: 48px !important;
+  }
+  .ant-menu-item{
+    font-size: 32px !important;
+    margin-bottom: 30px !important;
+  }
+  .ant-menu-item:focus{
+    background: none !important;
+  }
+  .ant-menu-item a{
+    color: var(--is-primary-text-color) !important;
+    font-weight: bold;
+  }
+  // .ant-menu-vertical .ant-menu-item{
+  //   margin-bottom: 25px !important;
+  // }
+  .ant-menu-item-selected{
+    background: none !important;
+    a {
+      color: var(--is-primary-color) !important;
+    }
+  }

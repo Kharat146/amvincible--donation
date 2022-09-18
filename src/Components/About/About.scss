@@ -1,0 +1,22 @@
+.AboutSection {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .heading {
+        font-size: 25px;
+        text-align: center;
+
+        h1 {
+            color: var(--is-text-color);
+        }
+    }
+
+    .contain {
+        font-size: 16px;
+
+        p {
+            color: var(--is-text-color);
+        }
+    }
+}

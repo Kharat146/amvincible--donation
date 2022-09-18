@@ -1,0 +1,15 @@
+.Header{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 8px 0px var(--is-primary-color);
+    padding-left:10px ;
+    padding-right:10px ;
+
+    .hamburger {
+        svg {
+            font-size: 48px;
+        }
+    }
+}
